@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "2Vp4x7l/46rbYiBd/Lm3JW8iL6ZJKZcuKlJM8RcK8tNRJ7xHBq8BGWIglzJnlr+ACU0ds369bMmwTUf6BuTvLw==",
+  "dgSpecHash": "YSnKtHGW4rUbCqTxTFxSagaf6kIiePaC38upV8cjxdRAW9Qi3VU+Li9hD2xM0LQwedOw8AVO6UBorAV9rRMFwA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\danie\\Documents\\Proyectos\\Csharp\\AppIndustrial\\AppIndustrial\\AppIndustrial\\AppIndustrial.csproj",
+  "projectFilePath": "C:\\Users\\danie\\AppMovilLabIndustrial\\AppIndustrial\\AppIndustrial\\AppIndustrial\\AppIndustrial.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\danie\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\danie\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"

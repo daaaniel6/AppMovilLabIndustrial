@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ZawgFQ0/ZBZJKO6VZKoWT5aZN0wz7SWP0tUstisWXU8VXaWi2skYiWtI4/Ta6NNgQodoTCdBDa3x/rO3s64+yA==",
+  "dgSpecHash": "PkieCAHj8HFY5Hl3JcawStgQEFbzpkIrL+DCKO0EV/fQhAUGPQNj6qQVjLZHTEMelCWjH9W7hrrvQ0kx2xTJMA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\danie\\Documents\\Proyectos\\Csharp\\AppIndustrial\\AppIndustrial\\AppIndustrial.iOS\\AppIndustrial.iOS.csproj",
+  "projectFilePath": "C:\\Users\\danie\\AppMovilLabIndustrial\\AppIndustrial\\AppIndustrial\\AppIndustrial.iOS\\AppIndustrial.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\danie\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
   ],

@@ -2,5 +2,7 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <SelectedDevice>Samsung SM-G955F</SelectedDevice>
+    <AndroidDesignerPreferredTheme>MainTheme</AndroidDesignerPreferredTheme>
+    <DefaultDevice>pixel_2_nougat_7_1_-_api_25</DefaultDevice>
   </PropertyGroup>
 </Project>
