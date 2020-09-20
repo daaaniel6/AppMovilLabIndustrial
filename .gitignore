@@ -83,3 +83,8 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
+
+# Ignore debug files
+AppIndustrial/AppIndustrial/AppIndustrial/obj/Debug/
+AppIndustrial/AppIndustrial/AppIndustrial.Android/obj/Debug/
+AppIndustrial/AppIndustrial/AppIndustrial.iOS/obj/iPhone/Debug/
