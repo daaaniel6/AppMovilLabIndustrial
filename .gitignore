@@ -88,3 +88,4 @@ lint/tmp/
 AppIndustrial/AppIndustrial/AppIndustrial/obj/Debug/
 AppIndustrial/AppIndustrial/AppIndustrial.Android/obj/Debug/
 AppIndustrial/AppIndustrial/AppIndustrial.iOS/obj/iPhone/Debug/
+*.cache
