@@ -85,8 +85,9 @@ lint/tmp/
 # lint/reports/
 
 # Ignore debug files
-#AppIndustrial/AppIndustrial/AppIndustrial/obj/
-#AppIndustrial/AppIndustrial/AppIndustrial.Android/obj/
-#AppIndustrial/AppIndustrial/AppIndustrial.iOS/obj/
-**/obj
 *.cache
+*.flat
+AppIndustrial/AppIndustrial/AppIndustrial/obj/
+AppIndustrial/AppIndustrial/AppIndustrial.Android/obj/
+AppIndustrial/AppIndustrial/AppIndustrial.iOS/obj/
+
