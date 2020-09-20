@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\danie\\Documents\\Proyectos\\Csharp\\AppIndustrial\\AppIndustrial\\AppIndustrial.Android\\AppIndustrial.Android.csproj": {}
+    "C:\\Users\\danie\\AppMovilLabIndustrial\\AppIndustrial\\AppIndustrial\\AppIndustrial.Android\\AppIndustrial.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\danie\\Documents\\Proyectos\\Csharp\\AppIndustrial\\AppIndustrial\\AppIndustrial.Android\\AppIndustrial.Android.csproj": {
+    "C:\\Users\\danie\\AppMovilLabIndustrial\\AppIndustrial\\AppIndustrial\\AppIndustrial.Android\\AppIndustrial.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\danie\\Documents\\Proyectos\\Csharp\\AppIndustrial\\AppIndustrial\\AppIndustrial.Android\\AppIndustrial.Android.csproj",
+        "projectUniqueName": "C:\\Users\\danie\\AppMovilLabIndustrial\\AppIndustrial\\AppIndustrial\\AppIndustrial.Android\\AppIndustrial.Android.csproj",
         "projectName": "AppIndustrial.Android",
-        "projectPath": "C:\\Users\\danie\\Documents\\Proyectos\\Csharp\\AppIndustrial\\AppIndustrial\\AppIndustrial.Android\\AppIndustrial.Android.csproj",
+        "projectPath": "C:\\Users\\danie\\AppMovilLabIndustrial\\AppIndustrial\\AppIndustrial\\AppIndustrial.Android\\AppIndustrial.Android.csproj",
         "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\danie\\Documents\\Proyectos\\Csharp\\AppIndustrial\\AppIndustrial\\AppIndustrial.Android\\obj\\",
+        "outputPath": "C:\\Users\\danie\\AppMovilLabIndustrial\\AppIndustrial\\AppIndustrial\\AppIndustrial.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Users\\danie\\Documents\\Proyectos\\Csharp\\AppIndustrial\\AppIndustrial\\AppIndustrial\\AppIndustrial.csproj": {
-                "projectPath": "C:\\Users\\danie\\Documents\\Proyectos\\Csharp\\AppIndustrial\\AppIndustrial\\AppIndustrial\\AppIndustrial.csproj"
+              "C:\\Users\\danie\\AppMovilLabIndustrial\\AppIndustrial\\AppIndustrial\\AppIndustrial\\AppIndustrial.csproj": {
+                "projectPath": "C:\\Users\\danie\\AppMovilLabIndustrial\\AppIndustrial\\AppIndustrial\\AppIndustrial\\AppIndustrial.csproj"
               }
             }
           }
@@ -54,14 +54,14 @@
         }
       }
     },
-    "C:\\Users\\danie\\Documents\\Proyectos\\Csharp\\AppIndustrial\\AppIndustrial\\AppIndustrial\\AppIndustrial.csproj": {
+    "C:\\Users\\danie\\AppMovilLabIndustrial\\AppIndustrial\\AppIndustrial\\AppIndustrial\\AppIndustrial.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\danie\\Documents\\Proyectos\\Csharp\\AppIndustrial\\AppIndustrial\\AppIndustrial\\AppIndustrial.csproj",
+        "projectUniqueName": "C:\\Users\\danie\\AppMovilLabIndustrial\\AppIndustrial\\AppIndustrial\\AppIndustrial\\AppIndustrial.csproj",
         "projectName": "AppIndustrial",
-        "projectPath": "C:\\Users\\danie\\Documents\\Proyectos\\Csharp\\AppIndustrial\\AppIndustrial\\AppIndustrial\\AppIndustrial.csproj",
+        "projectPath": "C:\\Users\\danie\\AppMovilLabIndustrial\\AppIndustrial\\AppIndustrial\\AppIndustrial\\AppIndustrial.csproj",
         "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\danie\\Documents\\Proyectos\\Csharp\\AppIndustrial\\AppIndustrial\\AppIndustrial\\obj\\",
+        "outputPath": "C:\\Users\\danie\\AppMovilLabIndustrial\\AppIndustrial\\AppIndustrial\\AppIndustrial\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -97,6 +97,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
