@@ -84,6 +84,7 @@
         <ShellContent Title="Browse" Icon="tab_feed.png" ContentTemplate="{DataTemplate local:ItemsPage}" />
         <ShellContent Title="Grupo"  Route="MenuGroupPage" ContentTemplate="{DataTemplate local:MenuGroupPage}"  />
         <ShellContent Title="Producto"  Route="MenuProductPage" ContentTemplate="{DataTemplate local:MenuProductPage}"  />
+        <ShellContent Title="Insumo"  Route="MenuSupplyPage" ContentTemplate="{DataTemplate local:MenuSupplyPage}"  />
         
     </FlyoutItem>
 
