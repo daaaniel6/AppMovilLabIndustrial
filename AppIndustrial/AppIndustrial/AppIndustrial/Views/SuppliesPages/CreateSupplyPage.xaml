@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppIndustrial.Views.SuppliesPages.CreateSupplyPage"
+             Title="Agregar Insumo">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Codigo Interno" />
+            <Entry x:Name="internalCodeEntry"
+               Placeholder="Codigo Interno" />
+            <Label Text="Nombre" />
+            <Entry x:Name="nameEntry"
+               Placeholder="Nombre" />
+            <Label Text="Fecha de Caducidad" />
+            <DatePicker x:Name="expirationDateDP"/>
+            <Label Text="Fecha de Ingreso" />
+            <DatePicker x:Name="dateAdmissionDP"/>
+            <Label Text="Costo por Unidad" />
+            <Entry x:Name="costEntry" Keyboard="Numeric" TextChanged="costEntry_TextChanged"/>
+            <Label Text="Escala de Medicion" />
+            <Picker x:Name="measurePicker" Title="Medida" ItemDisplayBinding="{Binding name}" />
+            <Label Text="Cantidad" />
+            <Entry x:Name="quantityEntry" Keyboard="Numeric" TextChanged="quantityEntry_TextChanged"/>
+            <Label Text="Descripcion" />
+            <Editor x:Name="descriptionEditor" Placeholder="Una descripcion corta." MaxLength="200"/>
+            <Button x:Name="createSupply" Text="Ingresar" Clicked="createSupply_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
