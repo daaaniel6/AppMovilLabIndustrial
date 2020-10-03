@@ -1,13 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppIndustrial.Views.SuppliesPages.ViewSuppliesPage">
+             x:Class="AppIndustrial.Views.SuppliesPages.ViewSuppliesPage"
+             Title="Insumos Disponibles">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Insumos Disponibles"
-                VerticalOptions="CenterAndExpand" />
-            <Button Text="Actualizar" x:Name="updateSupplyList" Clicked="updateSupplyList_Clicked" BackgroundColor="Cyan" TextColor="DarkSlateGray"/>
-            <ListView x:Name="SuppliesList">
+            <ListView x:Name="SuppliesList" IsPullToRefreshEnabled="True" Refreshing="SuppliesList_Refreshing" ItemTapped="SuppliesList_ItemTapped"> 
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <TextCell Text="{Binding internalCode}" Detail="{Binding name}"/>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppIndustrial.Views.SuppliesPages.UpdateSupplyView"
+             Title="Actualizar">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Codigo Interno" FontSize="Medium" />
+            <Label x:Name="internalCodeLabel" TextColor="OrangeRed"/>
+            <Label Text="Nombre" FontSize="Medium" />
+            <Entry x:Name="nameEntry"/>
+            <Label Text="Fecha de Ingreso" FontSize="Medium"/>
+            <Label x:Name="dateAdmissionLabel" TextColor="OrangeRed"/>
+            <Label Text="Fecha de Caducidad" FontSize="Medium"/>
+            <DatePicker x:Name="expirationDateDP"/>
+            <Label Text="Costo por Unidad" FontSize="Medium"/>
+            <Entry x:Name="costEntry" Keyboard="Numeric" TextChanged="costEntry_TextChanged"/>
+            <Label Text="Cantidad Disponible" FontSize="Medium"/>
+            <Label x:Name="quatityLabel" TextColor="OrangeRed"/>
+            <Label Text="Descripcion" FontSize="Medium"/>
+            <Editor x:Name="descriptionEditor" MaxLength="200"/>
+            <Button x:Name="updateButton" Text="Actualizar" Clicked="updateButton_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
