@@ -8,7 +8,7 @@ namespace AppIndustrial.Models.SupplyDTO
         public string internalCode { get; set; }
         public string name { get; set; }
         public string expirationDate { get; set; }
-        public string dateAdmission { get; set; }
+        public string dateOfAdmission { get; set; }
         public double cost { get; set; }
         public double quantity { get; set; }
         public bool availability { get; set; }
@@ -25,7 +25,7 @@ namespace AppIndustrial.Models.SupplyDTO
             this.internalCode = internalCode;
             this.name = name;
             this.expirationDate = expirationDate.ToString("yyyy-MM-dd");
-            this.dateAdmission = dateAdmission.ToString("yyyy-MM-dd");
+            this.dateOfAdmission = dateAdmission.ToString("yyyy-MM-dd");
             this.cost = cost;
             this.quantity = quantity;
             this.availability = availability;

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppIndustrial.Views.SuppliesPages.InfoSupplyView"
+             Title="Informacion">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Codigo Interno" FontSize="Subtitle" />
+            <Label x:Name="internalCodeLabel" TextColor="OrangeRed" FontSize="Medium"/>
+            <Label Text="Nombre" FontSize="Subtitle" />
+            <Label x:Name="nameLabel" TextColor="OrangeRed" FontSize="Medium"/>
+            <Label Text="Fecha de Ingreso" FontSize="Subtitle"/>
+            <Label x:Name="dateAdmissionLabel" TextColor="OrangeRed" FontSize="Medium"/>
+            <Label Text="Fecha de Caducidad" FontSize="Subtitle"/>
+            <Label x:Name="expirationDateLabel" TextColor="OrangeRed" FontSize="Medium"/>
+            <Label Text="Costo por Unidad" FontSize="Subtitle"/>
+            <Label x:Name="costLabel" TextColor="OrangeRed" FontSize="Medium"/>
+            <Label Text="Cantidad Disponible" FontSize="Subtitle"/>
+            <Label x:Name="quatityLabel" TextColor="OrangeRed" FontSize="Medium"/>
+            <Label Text="Descripcion" FontSize="Subtitle"/>
+            <Label x:Name="descriptionLabel" TextColor="OrangeRed" FontSize="Medium"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
